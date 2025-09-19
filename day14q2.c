@@ -7,6 +7,6 @@ int main() {
     for(int i = 1; i <= n; i++) {
         sum = sum + (2 * i);
     }
-    printf("The sum of the first %d odd numbers is %d\n", n, sum);
+    printf("The sum of the first %d even numbers is %d\n", n, sum);
     return 0;
 }
